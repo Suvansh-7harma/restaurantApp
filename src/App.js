@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import Navbar from "./components/navbar";
+// import  Restaurant from "./components/Restaurant.js";
+// import data from "./components/constant.json"
+// import Search from "./components/search.js"
+// import Rating from "./components/rating.js";
+import Home from "./components/home";
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar></Navbar>
+      {/* 
+      <Search data={data}></Search>
+      <Rating data={data}></Rating>
+      <Restaurant data={data}/> */}
+      <Home />
+      {/* <Footer></Footer> */}
+    </>
   );
 }
 

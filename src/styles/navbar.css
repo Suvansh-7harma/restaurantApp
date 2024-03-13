@@ -1,0 +1,54 @@
+.navbar{
+    background-color: #e3eafc;
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset -5px -5px 10px #1d4fd819;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width:15%;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+
+    .image{
+    height: 60%;
+    margin:0 2% 0 0;
+}
+.name{
+    font-weight: 500;
+}
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content:center;
+    align-items :center;
+    justify-content: space-around;
+    font-weight: 500;
+
+   .tabButton a{
+       color: black;
+       text-decoration: none;
+   }  
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #navButton {
+      padding:1% 100%;
+      border-radius:5px;
+      font-weight: 500;
+      border: none;
+      background-color: #1d4ed8;
+      color: beige;
+      white-space: nowrap;
+      padding: 17% 60% ;  
+    }
+}
+
